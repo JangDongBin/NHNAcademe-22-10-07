@@ -7,5 +7,12 @@ public class Main {
 
         System.out.println("yangseungA");
         System.out.println("seohyeon");
+
+        try {
+            Divide.divide(5, 10);
+        } catch (Exception e) {
+            System.out.println("0으로 나눌 수 없습니다.");
+        }
+
     }
 }
