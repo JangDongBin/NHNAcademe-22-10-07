@@ -6,5 +6,6 @@ public class Main {
         System.out.println("1111");
 
         System.out.println("yangseungA");
+        System.out.println("seohyeon");
     }
 }
