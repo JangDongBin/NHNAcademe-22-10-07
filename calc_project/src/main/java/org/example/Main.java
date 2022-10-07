@@ -2,17 +2,19 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
-        System.out.println("1111");
+        Add add = new Add();
+        System.out.println(add.add(1, 1));    
 
-        System.out.println("yangseungA");
-        System.out.println("seohyeon");
+        Minus minus = new Minus();
+        System.out.println(minus.minus(1, 1));
 
-        try {
-            Divide.divide(5, 10);
-        } catch (Exception e) {
-            System.out.println("0으로 나눌 수 없습니다.");
-        }
+        Multiplication mul = new Multiplication();
+        System.out.println(mul.multi(1, 1));
 
+        Divide div = new Divide();
+        System.out.println(div.divide(1, 1));
+
+        Mod mod = new Mod();
+        System.out.println(mod.getMod(1, 1));
     }
 }
